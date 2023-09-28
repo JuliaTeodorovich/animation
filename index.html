@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <title>Animation</title>
+  </head>
+  <body>
+    <main>
+      <div class="line">
+        <audio id="myAudio" controls loop>
+          <source
+            src="https://v1.pinimg.com/videos/mc/720p/8f/85/ae/8f85ae2ae52fbfb5b6946db6a1948d8d.mp4"
+            type="audio/mp3" />
+        </audio>
+      </div>
+      <div id="image-track" data-mouse-down-at="0" data-prev-percentage="0">
+        <img class="image" src="./img/photo-1.jpg" draggable="false" />
+        <img class="image" src="./img/photo-2.jpg" draggable="false" />
+        <img class="image" src="./img/photo-3.jpg" draggable="false" />
+        <video
+          class="image"
+          src="https://v1.pinimg.com/videos/mc/720p/57/a4/8e/57a48e02ea387e191c28b3d2b2a899d2.mp4"
+          autoplay
+          preload="auto"
+          allow="autoplay"
+          loop
+          muted
+          playsinline
+          draggable="false"></video>
+        <img class="image" src="./img/photo-4.jpg" draggable="false" />
+        <img class="image" src="./img/photo-5.jpg" draggable="false" />
+        <img class="image" src="./img/photo-6.jpg" draggable="false" />
+        <img class="image" src="./img/photo-7.jpg" draggable="false" />
+        <img class="image" src="./img/photo-8.jpg" draggable="false" />
+        <video
+          class="image"
+          src="https://v1.pinimg.com/videos/mc/720p/93/81/78/9381786bfe26eac3b43adab0916394a8.mp4"
+          autoplay
+          preload="auto"
+          allow="autoplay"
+          loop
+          muted
+          playsinline
+          draggable="false"></video>
+      </div>
+    </main>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
